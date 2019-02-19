@@ -1,4 +1,4 @@
-package br.com.glassroom.dataprovider.repository.entity;
+package br.com.glassroom.configuration;
 
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;

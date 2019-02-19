@@ -9,6 +9,7 @@ import java.util.Optional;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 
+import br.com.glassroom.configuration.ConfigurationEntityIntegrationTest;
 import br.com.glassroom.dataprovider.repository.UserRepository;
 
 public class UserEntityIntegrationTest extends ConfigurationEntityIntegrationTest {
