@@ -1,8 +1,8 @@
 package br.com.glassroom.configuration;
 
 import static org.hamcrest.core.Is.is;
+import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertThat;
-import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.springframework.http.HttpStatus.SERVICE_UNAVAILABLE;
 
 import org.junit.Test;

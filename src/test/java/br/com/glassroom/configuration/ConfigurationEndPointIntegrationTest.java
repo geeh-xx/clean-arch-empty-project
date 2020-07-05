@@ -4,9 +4,9 @@ import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import de.codecentric.boot.admin.client.registration.Application;
+import br.com.glassroom.GlassroomApplication;
 
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = Application.class)
+@SpringBootTest(classes = GlassroomApplication.class)
 public abstract class ConfigurationEndPointIntegrationTest {
 }

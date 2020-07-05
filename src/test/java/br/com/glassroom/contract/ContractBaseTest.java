@@ -12,13 +12,13 @@ import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 import org.springframework.web.context.WebApplicationContext;
 
-import de.codecentric.boot.admin.client.registration.Application;
+import br.com.glassroom.GlassroomApplication;
 import io.restassured.module.mockmvc.RestAssuredMockMvc;
 
 @RunWith(SpringRunner.class)
 @ContextConfiguration(classes = { ContractConfiguration.class })
 @DirtiesContext
-@SpringBootTest(classes = Application.class)
+@SpringBootTest(classes = GlassroomApplication.class)
 //@Sql
 @ActiveProfiles("contract")
 public class ContractBaseTest {

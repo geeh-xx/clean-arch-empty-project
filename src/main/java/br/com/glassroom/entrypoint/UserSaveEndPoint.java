@@ -13,9 +13,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 import br.com.glassroom.entrypoint.model.UserModel;
 import br.com.glassroom.usecase.UserSaveUseCase;
-import io.swagger.annotations.ApiOperation;
-import io.swagger.annotations.ApiResponse;
-import io.swagger.annotations.ApiResponses;
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.responses.ApiResponse;
+import io.swagger.v3.oas.annotations.responses.ApiResponses;
 
 @RestController
 @RequestMapping("/api/v1")
@@ -28,8 +28,8 @@ public class UserSaveEndPoint {
 		this.useCase = useCase;
 	}
 
-	@ApiOperation(value = "Save a User")
-	@ApiResponses(value = { @ApiResponse(code = 201, message = "Sucess") })
+	@Operation(summary = "Save a User")
+	@ApiResponses(value = { @ApiResponse(responseCode = "201", description = "Sucess") })
 	@PostMapping(path = "/user", consumes = MediaType.APPLICATION_JSON_VALUE)
 	public ResponseEntity<Void> saveEndPoint(@RequestBody UserModel model) {
 

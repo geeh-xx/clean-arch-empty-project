@@ -2,8 +2,8 @@ package br.com.glassroom.entrypoint;
 
 import static br.com.glassroom.entrypoint.mapper.UserEntryPointMapper.from;
 import static org.hamcrest.core.Is.is;
+import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertThat;
-import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;

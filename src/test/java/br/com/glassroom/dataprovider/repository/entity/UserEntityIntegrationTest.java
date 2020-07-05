@@ -2,7 +2,7 @@
 package br.com.glassroom.dataprovider.repository.entity;
 
 import static br.com.glassroom.factory.UserFactory.validEntity;
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.Assert.assertEquals;
 
 import java.util.Optional;
 
